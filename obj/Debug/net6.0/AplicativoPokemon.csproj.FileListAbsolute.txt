@@ -1,0 +1,17 @@
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\bin\Debug\net6.0\AplicativoPokemon.exe
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\bin\Debug\net6.0\AplicativoPokemon.deps.json
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\bin\Debug\net6.0\AplicativoPokemon.runtimeconfig.json
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\bin\Debug\net6.0\AplicativoPokemon.dll
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\bin\Debug\net6.0\AplicativoPokemon.pdb
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\bin\Debug\net6.0\RestSharp.dll
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\obj\Debug\net6.0\AplicativoPokemon.csproj.AssemblyReference.cache
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\obj\Debug\net6.0\AplicativoPokemon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\obj\Debug\net6.0\AplicativoPokemon.AssemblyInfoInputs.cache
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\obj\Debug\net6.0\AplicativoPokemon.AssemblyInfo.cs
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\obj\Debug\net6.0\AplicativoPokemon.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\obj\Debug\net6.0\AplicativoPokemon.csproj.CopyComplete
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\obj\Debug\net6.0\AplicativoPokemon.dll
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\obj\Debug\net6.0\refint\AplicativoPokemon.dll
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\obj\Debug\net6.0\AplicativoPokemon.pdb
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\obj\Debug\net6.0\AplicativoPokemon.genruntimeconfig.cache
+C:\Users\Gabriel\OneDrive\Documentos\Projetos\AplicativoPokemon\obj\Debug\net6.0\ref\AplicativoPokemon.dll

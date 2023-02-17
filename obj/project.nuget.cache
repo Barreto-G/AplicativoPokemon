@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "v7r8xTrYfw1kLqTD/1vgXvX2Me7X+XlS53fz+AZ/vmqWEdvOzd4lQLsy4DEl/nSEESrjTaHyA3e8/yxLJfyI6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Projetos\\AplicativoPokemon\\AplicativoPokemon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriel\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
