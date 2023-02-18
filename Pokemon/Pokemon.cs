@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AplicativoPokemon.Pokemon
+namespace AplicativoPokemon.pokemon
 {
     public class Pokemon
     {
