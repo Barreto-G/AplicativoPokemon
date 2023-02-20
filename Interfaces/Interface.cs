@@ -12,7 +12,7 @@ namespace AplicativoPokemon.Interfaces
     public class Interface
     {
         private string username { get; set; }
-        private Pokemon? myPokemon { get; set; }
+        private Tamagochi? myPokemon { get; set; }
 
         public void MainMenu()
         {
@@ -25,7 +25,7 @@ namespace AplicativoPokemon.Interfaces
                     Console.Clear();
                     Console.WriteLine($"Ola {username}, o que gostaria de fazer?\n"+
                                       $"1. Adotar um Pokemon\n"+
-                                      $"2. Exibir meu pokemon adotado\n"+
+                                      $"2. Exibir meu pokemon \n"+
                                       $"3. Sair");
 
                     escolha = Console.Read();
@@ -35,7 +35,8 @@ namespace AplicativoPokemon.Interfaces
                     {
                         case (int)'1':
                             Console.Clear();
-                            this.myPokemon = EscolherPokemon();
+                            this.myPokemon = new Tamagochi();
+                            this.myPokemon.pokemon = EscolherPokemon();
                             break;
                         case (int)'2':
                             PokeShowStats(this.myPokemon);
@@ -67,22 +68,55 @@ namespace AplicativoPokemon.Interfaces
                               "Feito por: Gabriel Barreto");
         }
 
-        public void PokeShowStats(Pokemon myPokemo)
+        public void PokeShowStats(Tamagochi myPokemo)
         {
             Console.Write("Bug sem sentido");
             Console.Clear();
             if(myPokemo != null)
-            {     
-                try
+            {
+                char escolha='0';
+                while(escolha != '4')
                 {
-                    Console.WriteLine($"------------ Seu Pokemon ------------\n"+
-                                      myPokemo.ToString());
-                    Console.ReadLine();
+                    Console.Clear();
+                    try
+                    {
+                        Console.WriteLine($"------------ Seu Pokemon ------------\n"+
+                                          myPokemo.ToString());
+                        Console.WriteLine($"Deseja interagir com seu Pokemon?\n"+
+                                          $"1. Alimenta-lo\n"+
+                                          $"2. Brincar\n"+
+                                          $"3. Colocar para dormir\n"+
+                                          $"4. Sair da Tela de interacao");
+
+                        escolha = ((char)Console.Read());
+                        switch (escolha)
+                        {
+                            case '1':
+                                myPokemo.AlimentarMascote();
+                                escolha = '0';
+                                break;
+                            case '2':
+                                myPokemo.BrincarMascote();
+                                escolha = '0';
+                                break;
+                            case '3':
+                                myPokemo.Descansar();
+                                escolha = '0';
+                                break;
+                            case '4':
+                                break;
+                            default:
+                                Console.WriteLine("Digite uma opcao valida!");
+                                escolha = '0';
+                                break;
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        throw new Exception(ex.Message);
+                    }
                 }
-                catch (Exception ex)
-                {
-                    throw new Exception(ex.Message);
-                }
+                
 
             }
             else
@@ -92,6 +126,7 @@ namespace AplicativoPokemon.Interfaces
            
 
         }
+
 
         public string telaBoasVindas()
         {
